@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultidoro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ultidoro</h1>
+    <h3>The adaptive pomodoro timer.</h3>
+    <h5>Work longer and get a longer break, doesn't break the flow when you are in the zone. If you do not work as long it will encourage you to get back in the saddle faster to keep up an productivity and hit that stride!</h5>
+
+        <p>Press start and the timer will start counting up. When you feel that you have lost focus or are getting distracted come back and push the stop button. A count down timer will then start to give you a break that is one third as long as the time you have been working. Take this time to hidrate, stretch and clear your mind before continuing!
+        </p>
+
+        <div id="timer">
+            <p id="workTime">0</p>
+                <button onclick="clock(); document.getElementById('workTime').innerHTML='0';">
+                Start counter
+                </button>
+                <button onclick="clearInterval(myTimer);">Stop counter</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
