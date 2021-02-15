@@ -1,0 +1,2 @@
+# Ultidoro
+Adaptive Pomodoro timer
